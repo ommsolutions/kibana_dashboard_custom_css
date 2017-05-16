@@ -5,7 +5,7 @@ export default function (kibana) {
     require: ['elasticsearch'],
     uiExports: {
       hacks: [
-        'plugins/custom_css_plugin/hack'
+        'plugins/kibana_dashboard_custom_css/hack'
       ]
     }
   });
