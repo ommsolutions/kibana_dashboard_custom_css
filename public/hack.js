@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 var url = window.location.href;
-var customCSSParam = url.match(/(custom_css=(.+))&/);
+var customCSSParam = url.match(/(custom_css=(.+))/);
 var param = '';
 var file = '';
 var loadedCss = '';
