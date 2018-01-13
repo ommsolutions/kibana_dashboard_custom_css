@@ -1,10 +1,10 @@
 {
   "name": "kibana_dashboard_custom_css",
-  "version": "0.1.0",
+  "version": "5.6.5",
   "description": "A Plugin for Kibana 5.x that allows to inject a custom css file as query param to style dashboards.",
   "main": "index.js",
   "kibana": {
-    "version": "5.2.3"
+    "version": "5.6.5"
   },
   "scripts": {
     "lint": "eslint",
